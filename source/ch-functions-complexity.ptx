@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-functions-complexity" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions and Complexity</title>
+
+  <introduction>
+    <p>
+    You are walking through the campus and you bump into one of your friends who
+    is excited to tell you that they have just learned in their discrete math
+    class that
+    <ul>
+      <li>
+        <p>
+          the set <m>\{1,2,3,4,5\}</m> has exactly <m>32</m> subsets,
+        </p>
+      </li>
+
+      <li>
+        <p>
+          there are as many natural numbers as there are even natural numbers,
+        </p>
+      </li>
+
+      <li>
+        <p>
+          there are more numbers in the interval <m>(0,1)</m> than in the set of
+          natural numbers.
+        </p>
+      </li>
+    </ul>
+    You wonder how can it be
+    <ul>
+      <li>
+        <p>
+          that there are a lot more subsets than elements in a small set like
+          <m>\{1,2,3,4,5\}</m>,
+        </p>
+      </li>
+
+      <li>
+        <p>
+          that the set of even natural numbers <m>2\N</m> is a proper subset of
+          the set <m>\N</m> of natural numbers and these two sets have the same
+          size, and
+        </p>
+      </li>
+
+      <li>
+        <p>
+          that you have more numbers in <m>(0,1)</m> than in <m>\N</m>, aren't
+          all the infinities the same?
+        </p>
+      </li>
+    </ul>
+    Your friend also tells you that in their discrete math class they also
+    learned that
+    <ul>
+      <li>
+        <p>
+          any set with <m>n</m> elements has exactly <m>2^{n}</m> subsets,
+        </p>
+      </li>
+
+      <li>
+        <p>
+          there are as many natural numbers as there are integers,
+        </p>
+      </li>
+
+      <li>
+        <p>
+          there are different kinds of infinities.
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <p>
+    This makes you curious and you decide to learn more about this topic. You
+    start with some notions that will help the understanding of the
+    relationships between sets.
+  </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-5-1-BasicNotions.ptx" />
+
+ <!-- include sections -->
+  <xi:include href="sec-5-2-Injective.ptx" />
+
+<!-- include sections -->
+  <xi:include href="sec-5-3-Surjective.ptx" />
+
+<!-- include sections -->
+  <xi:include href="sec-5-4-Composition.ptx" />
+
+<!-- include sections -->
+  <xi:include href="sec-5-5-Bijective.ptx" />
+
+<!-- include sections -->
+  <xi:include href="sec-5-6-AlgorithmsComplexity.ptx" />
+
+<!-- include sections -->
+  <xi:include href="sec-5-7-Summary.ptx" />
+
+</chapter>

@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-1-Propositions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Propositions</title>
+
+   <p>
+    Mathematics and logic deal with statements that are either true or false.
+  </p>
+
+  <definition>
+    <statement>
+      <p>
+        A <alert>mathematical statement</alert> or <alert>proposition</alert> is
+        a statement that can be proven to be true or false.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    We start with some examples.
+  </p>
+
+  <example xml:id="exa-logic1">
+    <statement>
+      <p>
+        Consider the following statements:
+        <ol>
+          <li>
+            <p>
+              <m>1+2=3</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              An integer is divisible by two if and only if its last digit is
+              <m>0, 2, 4, 6</m> or <m>8</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>8^{2}=60</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>2^{8}&lt;210</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>1&gt;2</m>.
+            </p>
+          </li>
+        </ol>
+        These are mathematical statements as each of them is either true or
+        false. The first and the second statements above are true and the last
+        two are false.
+      </p>
+    </statement>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        We give now some examples which are not propositions.
+        <ol>
+          <li>
+            <p>
+              Lebron James is a better basketball player than Michael Jordan.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Messi is better than CR7.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Taylor Swift is the greatest singer of all times.
+            </p>
+          </li>
+        </ol>
+        All the sentences above are opinions and cannot be proven using logic to
+        be true or false.
+      </p>
+
+      <p>
+        Consider the following statements.
+        <ol>
+          <li>
+            <p>
+              Lebron James has scored more points in his NBA regular career than
+              Michael Jordan.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              As of 2026, Michael Jordan has won more NBA titles than Lebron
+              James.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              As of 2026, CR7 has scored more goals than Messi.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Messi has won more World Cups than CR7.
+            </p>
+          </li>
+        </ol>
+      </p>
+
+      <p>
+        The first statement above is true as Lebron James has scored
+        <m>43440</m> points in his NBA regular seasons career while Michael
+        Jordan has scored <m>32292</m> points.
+      </p>
+
+      <p>
+        The second statement is also true as Michael Jordan has won six NBA
+        titles while Lebron James has won four such titles.
+      </p>
+
+      <p>
+        For the third statement, at the time of writing this book, CR7 has
+        scored <m>976</m> goals while Messi has scored <m>921</m> goals. Hence,
+        the third statement is also true.
+      </p>
+
+      <p>
+        The fourth statement is also true because Messi has won one World Cup in
+        2022 while CR7 has won none.
+      </p>
+    </statement>
+  </example>
+
+  <p>
+    Statements are usually represented by letters, for example, <m>p, q, r</m>,
+    etc and the truth value true is represented by <m>T</m> and false is
+    represented by <m>F</m>. Similar to common language where we can form
+    complex sentences, in the logical statement, we can also form a compound
+    statement by logical operators.
+  </p>
+  <!--\begin{defn}\textbf{Compound statement} is a statement formed from two other statements in one of several ways. \end{defn}-->
+  <p>
+    We use <alert>truth tables</alert> to describe the relationships between the
+    truth values of propositions. The simplest truth tables are below.
+  </p>
+
+  <blockquote>
+    <tabular top="minor" left="minor">
+      <col halign="center" right="minor"/>
+      <row bottom="minor">
+        <cell><m>p</m></cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>T</cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>F</cell>
+      </row>
+    </tabular>
+  </blockquote>
+
+  <p>
+    and
+  </p>
+
+  <blockquote>
+    <tabular top="minor" left="minor">
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor">
+        <cell><m>p</m></cell>
+        <cell><m>q</m></cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>T</cell>
+        <cell>T</cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>T</cell>
+        <cell>F</cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>F</cell>
+        <cell>T</cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>F</cell>
+        <cell>F</cell>
+      </row>
+    </tabular>
+  </blockquote>
+
+  <definition xml:id="def-negation">
+    <statement>
+      <p>
+        The negation of a proposition <m>p</m>, denoted by <m>\neg p</m> or not
+        <m>p</m>, is true when <m>p</m> is false, and is false when <m>p</m> is
+        true.
+      </p>
+    </statement>
+  </definition>
+
+  <example>
+    <statement>
+      <p>
+        The negation of the proposition ``4 is an even number'' is ``4 is not an
+        even number'' or ''it is not the case that 4 is an even number''.
+      </p>
+
+      <p>
+        The negation of the proposition ``this car is blue'' is be the
+        proposition ``this car is not blue''.
+      </p>
+    </statement>
+  </example>
+
+  <p>
+    The following truth table summarizes the truth values for the negation.
+  </p>
+
+  <blockquote>
+    <tabular top="minor" left="minor">
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor">
+        <cell><m>p</m></cell>
+        <cell><m>\neg p</m></cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>T</cell>
+        <cell>F</cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>F</cell>
+        <cell>T</cell>
+      </row>
+    </tabular>
+  </blockquote>
+
+  <definition>
+    <statement>
+      <p>
+        Let <m>p</m> and <m>q</m> be two propositions. The proposition <m>p</m>
+        and <m>q</m>, also denoted by <m>p\wedge q</m>, is true precisely when
+        both <m>p</m> and <m>q</m> are true.
+      </p>
+    </statement>
+  </definition>
+
+  <example>
+    <statement>
+      <p>
+        The proposition ``Delaware is the second smallest state in the United
+        States and Dover is its capital'' is true as each of the statements
+        ``Delaware is the second smallest state in the United States'' and
+        ``Dover is its capital'' is true.
+      </p>
+
+      <p>
+        The proposition `` <m>1+3 =4</m> and <m>5&gt;8</m> '' is false because
+        the proposition `` <m>5&gt;8</m> '' is false .
+      </p>
+    </statement>
+  </example>
+
+  <p>
+    The truth table below summarizes the truth values for <m>p\wedge q</m> with
+    all possible truth values of <m>p</m> and <m>q</m>.
+  </p>
+
+  <blockquote>
+    <tabular top="minor" left="minor">
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor">
+        <cell><m>p</m></cell>
+        <cell><m>q</m></cell>
+        <cell><m>p\wedge q</m></cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>T</cell>
+        <cell>T</cell>
+        <cell>T</cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>T</cell>
+        <cell>F</cell>
+        <cell>F</cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>F</cell>
+        <cell>T</cell>
+        <cell>F</cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>F</cell>
+        <cell>F</cell>
+        <cell>F</cell>
+      </row>
+    </tabular>
+  </blockquote>
+
+  <p>
+    In conclusion, the statement <m>p \wedge q</m> is true if both <m>p</m> and
+    <m>q</m> are true and false if at least one of the statements <m>p</m> or
+    <m>q</m> is false.
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        Let <m>p</m> be the statement
+        <TODO type="unknown-macro"><!--todo: unknown macro "\em"--><c>\em</c></TODO>
+        Alice has 2 erasers and <m>q</m> be the statement
+        <TODO type="unknown-macro"><!--todo: unknown macro "\em"--><c>\em</c></TODO>
+        Alice has 4 pencils. The compound statement <m>p\wedge q</m> is
+        <TODO type="unknown-macro"><!--todo: unknown macro "\em"--><c>\em</c></TODO>
+        Alice has 2 erasers and 4 pencils.
+        <!--If the reality is Alice has 2 erasers and 4 pencils, then we say the statement $p\wedge q$ is true. Otherwise, if Alice has 2 erasers but doesn't have 4 pencils or vice versa, we will say that the statement $p\wedge q$ is false. Similarly, if Alice has neither 2 erasers nor 4 pencils, the conjunction $p\wedge q$ is also false. -->
+      </p>
+    </statement>
+  </example>
+
+  <p>
+    <ul>
+      <li>
+        <p>
+          <alert>Disjunction (OR)</alert> <m>\vee</m> When two statements are
+          related by a disjunction, we denote it by <m>p\vee q</m> and read as
+          `` <m>p</m> or <m>q</m> ''. In this context, the ''or'' statement can
+          sound a bit different from the ''or'' that we use in the daily life.
+          If you are asked to choose a slice of cake or a scoop of ice cream,
+          usually it means you can only pick one of them, but not both. However,
+          in disjunction, choosing both is still considered true.
+        </p>
+
+        <example>
+          <statement>
+            <p>
+              Let <m>p</m> be the statement ``Alice gets 2 erasers' and <m>q</m>
+              be the statement ``Alice gets 4 pencils'', the compound statement
+              formed by disjunction will be ``Alice gets 2 erasers or 4
+              pencils.'' If the reality is Alice gets either 2 erasers or 4
+              pencils, then the compound statement is true. The statement is
+              only false if Alice doesn't get 2 erasers and 4 pencils.
+            </p>
+          </statement>
+        </example>
+
+        <p>
+          The following truth table summarizes the truth values for the
+          disjunction with all possible truth values of <m>p</m> and <m>q</m>.
+        </p>
+
+        <blockquote>
+          <tabular top="minor" left="minor">
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <row bottom="minor">
+              <cell><m>p</m></cell>
+              <cell><m>q</m></cell>
+              <cell><m>p\vee q</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>F</cell>
+            </row>
+          </tabular>
+        </blockquote>
+
+        <p>
+          In conclusion, a disjunction statement <m>p\vee q</m> is true if
+          <m>p</m> is true or <m>q</m> is true or both <m>p</m> and <m>q</m> are
+          true. It is false when both <m>p</m> and <m>q</m> are false.
+          Furthermore, the type of ''or'' that we used in daily life is called
+          an ''exclusive or'' in logic, where the statement is true only when
+          one of them is true but not both.
+        </p>
+
+        <example>
+          <statement>
+            <p>
+              The compound statement `` <m>2^{2}=6</m> or <m>5&lt;6</m> '' is
+              true while the statement `` <m>8</m> is an odd number or <m>8</m>
+              is divisible by 3'' is a false statement.
+            </p>
+          </statement>
+        </example>
+      </li>
+
+      <li>
+        <p>
+          <alert>Implication/conditional proposition</alert>
+          <m>p\rightarrow q</m> Can be read as:
+          <alert><m>p</m> implies <m>q</m></alert>,
+          <alert>if <m>p</m> then <m>q</m></alert>, <m>q</m> is necessary for
+          <m>p</m>, and <m>p</m> is sufficient for <m>q</m>. We can also say:
+          <m>p</m> is the hypothesis and <m>q</m> is the conclusion.
+        </p>
+
+        <p>
+          Let <m>p</m>: ''The husband gets bonus'' and <m>q</m>: ''He buys a
+          gift for his wife''. Then the implication <m>p\rightarrow q</m> is
+          read as ''if the husband gets bonus, then he buys a gift for his
+          wife''. Imagine if a person promises to get his wife a gift when he
+          gets bonus, this promise is only broken if he gets bonus but not
+          buying any gift. Otherwise, it is OK.
+        </p>
+
+        <p>
+          The following truth table summarizes the truth values for the
+          implication with all possible truth values of <m>p</m> and <m>q</m>.
+        </p>
+
+        <blockquote>
+          <tabular top="minor" left="minor">
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <row bottom="minor">
+              <cell><m>p</m></cell>
+              <cell><m>q</m></cell>
+              <cell><m>p\rightarrow q</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>F</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+            </row>
+          </tabular>
+        </blockquote>
+
+        <p>
+          <alert>Converse</alert> Given an implication <m>p\rightarrow q</m>, we
+          can consider its converse which is <m>q\rightarrow p</m>.
+        </p>
+
+        <p>
+          The following table compares the truth values of an implication and
+          its converse.
+        </p>
+
+        <blockquote>
+          <tabular top="minor" left="minor">
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <row bottom="minor">
+              <cell><m>p</m></cell>
+              <cell><m>q</m></cell>
+              <cell><m>p\rightarrow q</m></cell>
+              <cell><m>q \rightarrow p</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>F</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+          </tabular>
+        </blockquote>
+
+        <p>
+          An implication and its converse do not share the exact same truth
+          value. This is a very important thing to note that whenever an
+          implication is true, it does not directly imply that its converse is
+          true. In the context of Mathematics, sometimes when a result is proven
+          as an implication, mathematician will determine whether its converse
+          is also true.
+        </p>
+
+        <example>
+          <statement>
+            <p>
+              Let <m>x</m> be a real number. Consider the statement: If
+              <m>x&gt;0</m> then <m>x^{2}&gt;0</m>. This is a true statement
+              since the square of a positive real number is a real number.
+              However, its converse, which is if <m>x^{2}&gt;0</m> then
+              <m>x&gt;0</m> is not true. Take <m>x=-3</m> for example, then the
+              value of <m>x^{2}=9 &gt;0</m> but <m>x&lt;0</m>.
+            </p>
+          </statement>
+        </example>
+
+        <p>
+          In the situation where an implication and its converse are true,
+          usually the result is presented as a double implication, which will be
+          elaborated later in this section.
+        </p>
+
+        <p>
+          Besides the converse, we also consider the contrapositive of an
+          implication.
+        </p>
+
+        <p>
+          <alert>Contrapositive</alert> If the implication is given by
+          <m>p\rightarrow q</m> then its contrapositive is given by the
+          implication <m>(\neg q) \rightarrow (\neg p)</m>.
+        </p>
+
+        <p>
+          The following table compares the truth values of an implication and
+          its contrapositive.
+        </p>
+
+        <blockquote>
+          <tabular top="minor" left="minor">
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <row bottom="minor">
+              <cell><m>p</m></cell>
+              <cell><m>q</m></cell>
+              <cell><m>\neg p</m></cell>
+              <cell><m>\neg q</m></cell>
+              <cell><m>p\rightarrow q</m></cell>
+              <cell><m>\neg q \rightarrow \neg p</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>F</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+          </tabular>
+        </blockquote>
+
+        <p>
+          Since these two compound statements share the same truth value, we can
+          say that they are equivalent. This fact will be useful in the next
+          chapter when we are writing proof. Example: If I get a C- then I pass
+          this course. This is equivalent as saying, ``if I do not pass this
+          course, then I do not get a C-''.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <alert>Double implication</alert> <m>p \Leftrightarrow q</m> (
+          <m>p</m> if and only if <m>q</m> ) It means <m>p\rightarrow q</m> AND
+          <m>q\rightarrow p</m>
+        </p>
+
+        <blockquote>
+          <tabular top="minor" left="minor">
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <col halign="center" right="minor"/>
+            <row>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell/>
+              <cell><m>p\Leftrightarrow q</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell><m>p</m></cell>
+              <cell><m>q</m></cell>
+              <cell><m>p\rightarrow q</m></cell>
+              <cell><m>q \rightarrow p</m></cell>
+              <cell><m>(p\rightarrow q) \wedge (q\rightarrow p)</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>F</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>F</cell>
+              <cell>F</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell>F</cell>
+              <cell>F</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+              <cell>T</cell>
+            </row>
+          </tabular>
+        </blockquote>
+
+        <p>
+          <alert>Conclusion:</alert> The double implication
+          <m>p\Leftrightarrow q</m> is true if both <m>p</m> and <m>q</m> have
+          the same truth value and it is false if <m>p</m> and <m>q</m> have
+          different truth values.
+        </p>
+
+        <p>
+          <alert>Example:</alert>
+          <ol>
+            <li>
+              <p>
+                ``An integer <m>x</m> is an even number if and only if <m>x</m>
+                is evenly divisible by 2,'' is a true statement.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                ``A two digits number is even if and only if it ends with
+                <m>0</m>,'' is a false statement.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+    </ul>
+  </p>
+
+</section>

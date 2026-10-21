@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-counting" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Counting</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+<!-- include sections -->
+<xi:include href="sec-8-1-ArithGeomProg.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-8-2-SubsetPermBinom.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-8-3-PIE.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-8-4-RecurrenceRel.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-8-5-Pigeonhole.ptx" />
+
+</chapter>

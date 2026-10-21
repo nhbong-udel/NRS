@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-1-BasicNotions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Basic Notions</title>
+
+  <p>
+    The notion of function is one of the fundamental concepts of mathematics.
+    Functions appear in calculus classes in the form of relations between two
+    variables <m>x</m> and <m>y</m> such as
+    <ul>
+      <li>
+        <p>
+          <m>y=ax+b</m> (linear functions),
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>y=x^{2}</m> (quadratic functions),
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>y=\sin x</m> (trigonometric functions),
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <m>y=2^{x}</m> (exponential functions) and <m>y=\log_{2}x</m>
+          (logarithm functions),
+        </p>
+      </li>
+    </ul>
+    and so on.
+  </p>
+
+  <definition xml:id="def-func">
+    <statement>
+      <p>
+        Let <m>A</m> and <m>B</m> be two non-empty sets. A function
+        <m>f: A\rightarrow B</m> from <m>A</m> to <m>B</m> is a correspondence
+        that associates to each element <m>a\in A</m> a unique element
+        <m>f(a)</m> of <m>B</m>. The set <m>A</m> is called the domain of
+        <m>f</m> and the set <m>B</m> is called the codomain of <m>f</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    To avoid unnecessary repetition, when dealing with a function
+    <m>f:A\rightarrow B</m>, the underlying assumption will be that <m>A</m> and
+    <m>B</m> are non-empty sets.
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        In calculus, the domain and the codomain of functions were often not
+        explicitly stated and were understood to be both the set of real number
+        <m>\R</m>.
+      </p>
+    </statement>
+  </example>
+
+  <p>
+    It is worth emphasizing that a function <m>f:A\rightarrow B</m> consists of
+    three things:
+    <ol>
+      <li>
+        <p>
+          the domain <m>A</m>,
+        </p>
+      </li>
+
+      <li>
+        <p>
+          the codomain <m>B</m>,
+        </p>
+      </li>
+
+      <li>
+        <p>
+          the rule/formula that associates to each element <m>a\in A</m> a
+          unique element <m>f(a)\in B</m>.
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <definition>
+    <statement>
+      <p>
+        Let <m>f:A\rightarrow B</m> and <m>g:C\rightarrow D</m> be two
+        functions. We say that the functions <m>f</m> and <m>g</m> are equal or
+        the same if
+        <ol>
+          <li>
+            <p>
+              <m>A=C</m>,
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>B=D</m>,
+            </p>
+          </li>
+
+          <li>
+            <p>
+              for any <m>x\in A=C, f(x)=g(x)</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="exa-function1to5_2n">
+    <statement>
+      <p>
+        Define <m>f:\{1,2,3,4,5\}\rightarrow \mathbb{N}</m>, where
+        <md>
+          f(1)=2, f(2)=4, f(3)=6, f(4)=8, f(5)=10,
+        </md>
+        and
+        <m>g:\{n: n\in \mathbb{N}, 1\leq n\leq 5\}\rightarrow \mathbb{N}</m>,
+        where
+        <md>
+          g(k)=2k, \forall k\in \{n:n\in \mathbb{N}, 1\leq n\leq 5\}.
+        </md>
+      </p>
+
+      <p>
+        The functions <m>f</m> and <m>g</m> are equal because
+        <ol>
+          <li>
+            <p>
+              their domains are the same <m>\{1,2,3,4,5\}</m>,
+            </p>
+          </li>
+
+          <li>
+            <p>
+              their codomains are identical <m>\mathbb{N}</m>, and
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>f(k)=g(k)</m> for any <m>k\in \{1,2,3,4,5\}</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Define the following functions
+        <md alignment="align">
+          <mrow>f:\mathbb{N}\rightarrow \mathbb{N}, f(n)&amp;=2n+1, \forall n\in \mathbb{N},</mrow>
+          <mrow>g:\mathbb{N}\rightarrow \mathbb{R}, g(n)&amp;=2n+1, \forall n\in \mathbb{N},</mrow>
+          <mrow>h:\mathbb{R}\rightarrow \mathbb{R}, h(n)&amp;=2n+1, \forall n\in \mathbb{R}.</mrow>
+        </md>
+      </p>
+
+      <p>
+        Any two of these functions are different:
+        <ol>
+          <li>
+            <p>
+              <m>f\neq g</m> because the codomains are different (the codomain
+              of <m>f</m> is <m>\mathbb{N}</m> which is different from
+              <m>\mathbb{R}</m>, the codomain of <m>g</m> ).
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>g\neq h</m> because the domains are different (the domain of
+              <m>g</m> is <m>\mathbb{N}</m> which is not the same as
+              <m>\mathbb{R}</m>, the domain of <m>h</m> ).
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>h\neq f</m> because either the domains are different or the
+              codomains are not the same.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </example>
+
+  <example xml:id="exa-function_x2">
+    <statement>
+      <p>
+        Consider the following functions:
+        <md alignment="align">
+          <mrow>f:\mathbb{R}\rightarrow \mathbb{R}, f(x)&amp;=x^{2}, \forall x\in \mathbb{R},</mrow>
+          <mrow>g:\mathbb{R}\rightarrow [0,+\infty), g(x)&amp;=x^{2}, \forall x\in \mathbb{R},</mrow>
+          <mrow>h:[0,+\infty)\rightarrow [0,+\infty), h(x)&amp;=x^{2}, \forall x\in [0,+\infty).</mrow>
+        </md>
+        The functions <m>f,g</m>, and <m>h</m> are not the same because
+        <ol>
+          <li>
+            <p>
+              <m>f</m> and <m>g</m> have different codomains,
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>g</m> and <m>h</m> have different domains,
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <m>h</m> and <m>f</m> have different domains (and codomains).
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </example>
+
+  <definition xml:id="def-graph_function">
+    <statement>
+      <p>
+        Let <m>f:A\rightarrow B</m> be a function from <m>A</m> to <m>B</m>. The
+        graph of the function <m>f</m> is the set of ordered pairs
+        <md>
+          Graph(f)=\{(a,f(a)):a\in A\}.
+        </md>
+      </p>
+    </statement>
+  </definition>
+
+</section>

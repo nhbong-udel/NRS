@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <book xml:id="my-great-book">
+    <title>A Discrete Mathematics Text</title>
+    <subtitle>An attempt to write a book</subtitle>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+   <!-- Include chapters -->
+    <xi:include href="./ch-logic.ptx" />
+
+     <!-- Include chapters -->
+    <xi:include href="./ch-proof.ptx" />
+
+     <!-- Include chapters -->
+    <xi:include href="./ch-sets.ptx" />
+
+     <!-- Include chapters -->
+    <xi:include href="./ch-relations.ptx" />
+
+     <!-- Include chapters -->
+    <xi:include href="./ch-functions-complexity.ptx" />
+
+     <!-- Include chapters -->
+    <xi:include href="./ch-wellordering-induction.ptx" />
+
+     <!-- Include chapters -->
+    <xi:include href="./ch-number-theory.ptx" />
+
+    <!-- Include chapters -->
+    <xi:include href="./ch-counting.ptx" />
+
+      <!-- Include chapters -->
+    <xi:include href="./ch-graphs.ptx" />
+
+
+    <!-- Include backmatter -->
+    <xi:include href="./backmatter.ptx" />
+
+  </book>
+</pretext>

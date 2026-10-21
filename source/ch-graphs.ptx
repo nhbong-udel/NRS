@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Graph Theory</title>
+
+  <introduction>
+      <p>
+    You meet your friend again and you hear more interesting things:
+    <ol>
+      <li>
+        <p>
+          In any group of people, there are two who have the same number of
+          friends.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Six degrees of separation: for any two people in the world, one can
+          find a chain of at most six connections/mutual acquaintances.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Chemistry: An acyclic saturated hydrocarbon or alkane or paraffin
+          <m>C_{m}H_{n}</m> (a substance made only of carbon and hydrogen)
+          exists if and only if <m>m=2n+2</m>.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Friendship paradox: On average, your friends have more friends than
+          you do.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          Any map can be colored with four colors such that any two countries
+          sharing a border, receive different colors.
+        </p>
+      </li>
+    </ol>
+      </p>
+  </introduction>
+
+<!-- include sections -->
+  <xi:include href="sec-9-1-DegreesIsomorphism.ptx" />
+
+<!-- include sections -->
+  <xi:include href="sec-9-2-WalksPathDiam.ptx" />
+
+<!-- include sections -->
+  <xi:include href="sec-9-3-Bipartite.ptx" />
+
+<!-- include sections -->
+  <xi:include href="sec-9-4-Trees.ptx" />
+
+<!-- include sections -->
+  <xi:include href="sec-9-5-GraphColor.ptx" />
+
+<!-- include sections -->
+  <xi:include href="sec-9-6-Ramsey.ptx" />
+
+<!-- include sections -->
+  <xi:include href="sec-9-7-Planar.ptx" />
+
+</chapter>

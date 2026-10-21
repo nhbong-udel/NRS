@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-9-1-DegreesIsomorphism" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Degrees, Isomorphism</title>
+
+<p>
+    A graph is an abstract model of a network. We are surrounded by networks:
+    social, communication, biological and their study is of interest in many
+    realms, both theoretical and applied. We start with some examples.
+  </p>
+
+  <example>
+    <title>Kevin Bacon network</title>
+
+    <statement>
+      <p>
+        Kevin Bacon is a famous American actor that has appeared in many movies.
+        The Bacon graph or the collaboration graph of actors is the network
+        whose nodes/points are movie actors, where two actors are connected by
+        an edge (a segment or curve joining the corresponding points) if they
+        have been in a movie together.
+      </p>
+
+  <p>
+    
+Insert figure " The actors network on Kevin Bacon, Cate Blanchett, Dustin Hoffman,
+          Brad Pitt and Meryl Streep, Emma Watson and Bruce Willis"
+      </p>
+
+      <p>
+        The whole network is much larger and evolves in time as more movies are
+        being made. This network has also led to the notion of the Bacon number
+        which is defined as follows.
+        <ol>
+          <li>
+            <p>
+              Kevin Bacon is the only person with Bacon number <m>0</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Any actor that has appeared in a movie with Kevin Bacon gets Bacon
+              number <m>1</m>. All the actors in Figure ??
+              except Kevin Bacon, have Bacon number <m>1</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Any actor that has does not have Bacon number <m>1</m> and has
+              appeared in a movie with an actor of Bacon number <m>1</m>, gets
+              Bacon number <m>2</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              For <m>j\geq 3</m>, an actor that does not have Bacon number
+              <m>j-1</m> or less, will get Bacon number <m>j</m>, if that actor
+              has appeared in a movie with an actor of Bacon number <m>j-1</m>.
+            </p>
+          </li>
+        </ol>
+        If an actor cannot be connected to Kevin Bacon as above via a chain of
+        common movies, then its Bacon number is <m>+\infty</m>. Each of the
+        authors of this book has Bacon number <m>+\infty</m>, for example.
+      </p>
+
+      <p>
+        While there are many people with Bacon number <m>+\infty</m>, it appears
+        that the largest (finite) Bacon number is <m>10</m>.
+      </p>
+    </statement>
+  </example>
+
+
+<example>
+    <title>Erdős collaboration network</title>
+
+    <statement>
+      <p>
+        Paul Erdős (1913-1996) was a famous Hungarian mathematician who wrote
+        <m>1447</m> research papers and had <m>512</m> co-authors
+        <fn>These numbers are obtained from <url href="www.ams.org/mathscinet">AMS MathSciNet</url>. There are slightly different numbers at the Erdős Number Project.</fn>.
+        Erdős's work has greatly influenced many areas of mathematics,
+        especially discrete mathematics.
+      </p>
+
+      <p>
+        Consider the following collaboration network. The members of this
+        network are mathematicians or authors of mathematical papers. Two
+        mathematicians are joined by an edge in this network if they are
+        co-authors on a mathematical paper or book. Of course, this network
+        evolves with time as more papers and books are being published and more
+        co-authorship relations are being created. To avoid amiguities, we focus
+        on the collaboration network at present time.
+      </p>
+
+     
+        <p>
+          INSERT FIGURE: The collaboration network of Erdös, Chung, Einstein, Graham and Straus
+        </p>
+  
+
+      <p>
+        In this network, Erdős is joined by an edge to Fan Chung, Ron Graham and
+        Ernst Straus, but is not joined by an edge to Albert Einstein. Ernst
+        Straus who wrote a paper with Einstein and wrote a paper with Ron
+        Graham, but did not write a paper with with Fan Chung. The collaboration
+        network with these five people is in Figure ??
+      </p>
+
+      <p>
+        Based on the large collaboration network or graph of mathematicians, the
+        notion of the Erdős number has been introduced
+        <fn>The first reference seems to be the paper ???. And what is your Erdős number? by Casper Goffman in The American Mathematical Monthly in 1969.</fn>.
+        Each mathematician receives a number which (we will define these terms
+        later) is the shortest length of a path from that mathematician to Erdős
+        in the collaboration graph. For now, we can define these numbers as
+        follows.
+        <ol>
+          <li>
+            <p>
+              Erdős is the only person that has Erdős number <m>0</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Every co-author of Erdős gets number <m>1</m>. Therefore, Chung,
+              Graham and Straus have Erdős number <m>1</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Each person that does not have Erdős number <m>1</m>, but has
+              written a paper with someone of Erdős number <m>1</m>, gets Erdős
+              number <m>2</m>. Einstein has Erdős number <m>2</m> via Straus.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Each person that does not have Erdős number <m>0,1,2</m>, but has
+              written a paper with someone of Erdős number <m>2</m>, receives
+              Erdős number <m>3</m>.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              The procedure continues in the same manner similar to the
+              assignment of Bacon numbers earlier. For <m>j\geq 3</m>, a person
+              that does not have Erdős number <m>j-1</m> or less, gets Erdős
+              number <m>j</m> if that person has written a paper with someone
+              with Erdős number <m>j-1</m>.
+            </p>
+          </li>
+        </ol>
+        Currently, the largest Erdős number is <m>13</m>. Every person that does
+        not have a (finite) Erdős number, gets Erdős number <m>+\infty</m>. The
+        authors of this book have the following Erdős numbers:
+        <ul>
+          <li>
+            <p>
+              Novi Bong has Erdős number <m>2</m> via Ortrud Oellerman.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Sebastian Cioabă has Erdős number <m>2</m> via Noga Alon or Peter
+              Cameron or Brendan McKay or Ram Murty.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Robert Coulter has Erdős number <m>3</m> via Aart Blokhuis and
+              Peter Cameron.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <example>
+    <title>An abstract social network/graph</title>
+
+    <statement>
+      <p>
+        We want to describe the friendship relations between a finite set of
+        people.
+      </p>
+
+   
+        <p> INSERT FIGURE: Another graph/network example
+      </p>
+
+      <p>
+        Assume that we have five people which we represent in Figure
+        ?? as dots or points in the plane:
+        <md xml:id="eq-Vnet0" number="yes">
+          x_{1},x_{2},x_{3},x_{4},x_{5}.
+        </md>
+        In Figure ??, we draw a segment joining two
+        points if the two persons represented by these points are friends. We
+        can represent these segments as <m>2</m>-subsets of the
+        <m>\{x_{1},x_{2},x_{3},x_{4},x_{5}\}</m>:
+        <md xml:id="eq-Enet0" number="yes">
+          \{x_{1},x_{2}\}, \{x_{1},x_{4}\}, \{x_{1},x_{5}\}, \{x_{2},x_{3}\}, \{x_{2},x_{4}\}, \{x_{4},x_{5}\}.
+        </md>
+      </p>
+    </statement>
+  </example>
+</section>

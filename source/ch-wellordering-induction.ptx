@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-wellordering-induction" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Well-Ordering Principle and Induction</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+<!-- include sections -->
+<xi:include href="sec-6-1-WellOrdering.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-6-2-StandardInduction.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-6-3-StrongInduction.ptx" />
+</chapter>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-number-theory" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Number Theory</title>
+
+  <introduction>
+     <p>
+    The study of the integers and their properties forms part of the area of
+    mathematics called Number Theory. The topic forms the basis for almost all
+    modern day computing. It is used in ATMs, mobile phones, WIFI, televisions,
+    radio broadcasting, all of the music mediums (such as CDs, and all the file
+    formats such as MP3, OGG, WAV, AIFF etc), dvds, space transmissions, and
+    secure electronic data storage and compression.
+  </p>
+
+  <p>
+    In this chapter we shall concentrate on the properties of integers in
+    relation to division and multiplication, but it is worth remembering that
+    even the basic ideas developed here are fundamental to all of the
+    applications just mentioned. Indeed, the concept of modular arithmetic alone
+    touches on practically all of the applications just mentioned.
+  </p>
+  </introduction>
+
+ <!-- include sections -->
+<xi:include href="sec-7-1-Divisibility.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-7-2-AppliDivAlg.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-7-3-PrimesFTA.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-7-4-ModularArithmetic.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-7-5-ModularExp.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-7-6-AppliModArith.ptx" />
+</chapter>

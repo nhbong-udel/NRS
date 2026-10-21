@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-logic" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Logic</title>
+
+  <introduction>
+    <p> In this chapter, we discuss the basic notion of logic </p>
+  </introduction>
+
+<!-- include sections -->
+  <xi:include href="sec-1-1-Propositions.ptx" />
+
+<!-- include sections -->
+<xi:include href="sec-1-2-CompoundStatements.ptx" />
+</chapter>
