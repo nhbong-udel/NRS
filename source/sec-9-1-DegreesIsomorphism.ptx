@@ -21,11 +21,18 @@
         have been in a movie together.
       </p>
 
-  <p>
+ 
     
-Insert figure " The actors network on Kevin Bacon, Cate Blanchett, Dustin Hoffman,
-          Brad Pitt and Meryl Streep, Emma Watson and Bruce Willis"
-      </p>
+<figure xml:id="bacon1">
+ <caption>The actors network on Kevin Bacon, Cate Blanchett, Dustin Hoffman,
+          Brad Pitt and Meryl Streep, Emma Watson and Bruce Willis</caption>
+<image width="70%">
+  <prefigure xmlns="https://prefigure.org"
+             label="bacon1">
+ <xi:include href="prefigure/ex91-bacon1.xml"/>
+  </prefigure>
+</image>
+</figure>
 
       <p>
         The whole network is much larger and evolves in time as more movies are
@@ -41,7 +48,7 @@ Insert figure " The actors network on Kevin Bacon, Cate Blanchett, Dustin Hoffma
           <li>
             <p>
               Any actor that has appeared in a movie with Kevin Bacon gets Bacon
-              number <m>1</m>. All the actors in Figure ??
+              number <m>1</m>. All the actors in <xref ref="bacon1"/>
               except Kevin Bacon, have Bacon number <m>1</m>.
             </p>
           </li>
@@ -165,7 +172,7 @@ Insert figure " The actors network on Kevin Bacon, Cate Blanchett, Dustin Hoffma
         <ul>
           <li>
             <p>
-              Novi Bong has Erdős number <m>2</m> via Ortrud Oellerman.
+              Novi Bong has Erdős number <m>2</m> via Ortrud Oellermann.
             </p>
           </li>
 
@@ -216,4 +223,15 @@ Insert figure " The actors network on Kevin Bacon, Cate Blanchett, Dustin Hoffma
       </p>
     </statement>
   </example>
+
+<!--<figure>
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="test-graph">
+ <xi:include href="prefigure/ex91-graph.xml"/>
+  </prefigure>
+</image>
+</figure>-->
+
+
 </section>

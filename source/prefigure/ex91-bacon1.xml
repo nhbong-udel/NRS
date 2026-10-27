@@ -1,0 +1,72 @@
+<diagram dimensions="(420, 200)" margins="(25, 20, 25, 20)"
+ xmlns="https://prefigure.org">
+  <definition>EW = (0, 2.5)</definition>
+  <definition>MS = (2, 4.5)</definition>
+  <definition>DH = (2, 0.5)</definition>
+  <definition>KB = (4.7, 2.7)</definition>
+  <definition>CB = (7, 4.5)</definition>
+  <definition>BP = (7, 0.5)</definition>
+  <definition>BW = (9.5, 2.2)</definition>
+ 
+  <coordinates bbox="(-0.5, 0, 10, 5)">
+    <!-- edges (drawn first so the vertex dots sit on top) -->
+    <group at="edges">
+    <line at="e-EW-MS" endpoints="(EW, MS)"/>
+    <line at="e-EW-DH" endpoints="(EW, DH)"/>
+    <line at="e-MS-DH" endpoints="(MS, DH)"/>
+    <line at="e-MS-CB" endpoints="(MS, CB)"/>
+    <line at="e-MS-KB" endpoints="(MS, KB)"/>
+    <line at="e-MS-BW" endpoints="(MS, BW)"/>
+    <line at="e-DH-KB" endpoints="(DH, KB)"/>
+    <line at="e-DH-BP" endpoints="(DH, BP)"/>
+    <line at="e-DH-BW" endpoints="(DH, BW)"/>
+    <line at="e-KB-CB" endpoints="(KB, CB)"/>
+    <line at="e-KB-BP" endpoints="(KB, BP)"/>
+    <line at="e-CB-BP" endpoints="(CB, BP)"/>
+    <line at="e-CB-BW" endpoints="(CB, BW)"/>
+    <line at="e-BP-BW" endpoints="(BP, BW)"/>
+    </group>
+ 
+    <!-- vertices with labels -->
+    <group at="vertices">
+    <point at="v-EW" fill="black" size="3" p="EW" alignment="west">EW</point>
+    <point at="v-MS" fill="black" size="3" p="MS" alignment="nw">MS</point>
+    <point at="v-DH" fill="black" size="3" p="DH" alignment="sw">DH</point>
+    <point at="v-KB" fill="black" size="3" p="KB" alignment="west">KB</point>
+    <point at="v-CB" fill="black" size="3" p="CB" alignment="ne">CB</point>
+    <point at="v-BP" fill="black" size="3" p="BP" alignment="se">BP</point>
+    <point at="v-BW" fill="black" size="3" p="BW" alignment="east">BW</point>
+    </group>
+  </coordinates>
+ 
+  <!--annotations>
+    <annotation ref="figure"
+                text="A graph with seven vertices, EW, MS, DH, KB, CB, BP and BW, and fourteen edges.">
+      <annotation ref="vertices" text="The vertices">
+        <annotation ref="v-EW" text="Vertex EW, degree 2, adjacent to MS and DH"/>
+        <annotation ref="v-MS" text="Vertex MS, degree 5, adjacent to EW, DH, CB, KB and BW"/>
+        <annotation ref="v-DH" text="Vertex DH, degree 5, adjacent to EW, MS, KB, BP and BW"/>
+        <annotation ref="v-KB" text="Vertex KB, degree 4, adjacent to MS, DH, CB and BP"/>
+        <annotation ref="v-CB" text="Vertex CB, degree 4, adjacent to MS, KB, BP and BW"/>
+        <annotation ref="v-BP" text="Vertex BP, degree 4, adjacent to DH, KB, CB and BW"/>
+        <annotation ref="v-BW" text="Vertex BW, degree 4, adjacent to MS, DH, CB and BP"/>
+      </annotation>
+      <annotation ref="edges" text="The edges">
+        <annotation ref="e-EW-MS" text="Edge from EW to MS"/>
+        <annotation ref="e-EW-DH" text="Edge from EW to DH"/>
+        <annotation ref="e-MS-DH" text="Edge from MS to DH"/>
+        <annotation ref="e-MS-CB" text="Edge from MS to CB"/>
+        <annotation ref="e-MS-KB" text="Edge from MS to KB"/>
+        <annotation ref="e-MS-BW" text="Edge from MS to BW"/>
+        <annotation ref="e-DH-KB" text="Edge from DH to KB"/>
+        <annotation ref="e-DH-BP" text="Edge from DH to BP"/>
+        <annotation ref="e-DH-BW" text="Edge from DH to BW"/>
+        <annotation ref="e-KB-CB" text="Edge from KB to CB"/>
+        <annotation ref="e-KB-BP" text="Edge from KB to BP"/>
+        <annotation ref="e-CB-BP" text="Edge from CB to BP"/>
+        <annotation ref="e-CB-BW" text="Edge from CB to BW"/>
+        <annotation ref="e-BP-BW" text="Edge from BP to BW"/>
+      </annotation>
+    </annotation>
+  </annotations>-->
+</diagram>
