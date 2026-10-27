@@ -9,8 +9,7 @@
 output
 published
 
-# don't track assets generated from source
-generated-assets
+
 .cache
 
 # don't track the executables.ptx file
