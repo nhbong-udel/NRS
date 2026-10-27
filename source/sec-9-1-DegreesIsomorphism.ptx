@@ -34,6 +34,17 @@
 </image>
 </figure>
 
+<p>
+  <xref ref="bacon1"/> gives a small snapshot of this network. For example, 
+  Kevin Bacon and Meryl Streep acted in the movie <em>River Wild</em>, 
+  Kevin Bacon, Dustin Hoffman and Brad Pitt were in the movie <em>Sleepers</em>, 
+  while Cate Blanchett and Kevin Bacon acted in <em>The Gift</em>. 
+  At this time, Brad Pitt and Meryl Streep have not been in the same movie so there is
+   no segment/curve connecting them in <xref ref="bacon1"/>. The same situation applies to 
+   Cate Blanchett and Dustin Hoffman. Cate Blanchett and Meryl Streep acted in <em>Don't look up</em>.
+    We invite the reader to verify the remaining links involving these actors.
+</p>
+
       <p>
         The whole network is much larger and evolves in time as more movies are
         being made. This network has also led to the notion of the Bacon number
@@ -170,6 +181,7 @@
         not have a (finite) Erdős number, gets Erdős number <m>+\infty</m>. The
         authors of this book have the following Erdős numbers:
         <ul>
+          
           <li>
             <p>
               Novi Bong has Erdős number <m>2</m> via Ortrud Oellermann.
