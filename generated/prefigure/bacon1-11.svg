@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="bacon1-figure" width="470" height="240" viewBox="0 0 470 240">
+  <defs>
+    <clipPath id="bacon1-__clipPath-0">
+      <rect x="25.0" y="20.0" width="420.0" height="200.0"/>
+    </clipPath>
+    <clipPath id="bacon1-__clipPath-1">
+      <rect x="25.0" y="20.0" width="420.0" height="200.0"/>
+    </clipPath>
+  </defs>
+  <g id="bacon1-edges">
+    <line id="bacon1-e-EW-MS" x1="45.0" y1="120.0" x2="125.0" y2="40.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-EW-DH" x1="45.0" y1="120.0" x2="125.0" y2="200.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-MS-DH" x1="125.0" y1="40.0" x2="125.0" y2="200.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-MS-CB" x1="125.0" y1="40.0" x2="325.0" y2="40.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-MS-KB" x1="125.0" y1="40.0" x2="233.0" y2="112.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-MS-BW" x1="125.0" y1="40.0" x2="425.0" y2="132.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-DH-KB" x1="125.0" y1="200.0" x2="233.0" y2="112.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-DH-BP" x1="125.0" y1="200.0" x2="325.0" y2="200.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-DH-BW" x1="125.0" y1="200.0" x2="425.0" y2="132.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-KB-CB" x1="233.0" y1="112.0" x2="325.0" y2="40.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-KB-BP" x1="233.0" y1="112.0" x2="325.0" y2="200.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-CB-BP" x1="325.0" y1="40.0" x2="325.0" y2="200.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-CB-BW" x1="325.0" y1="40.0" x2="425.0" y2="132.0" stroke="black" stroke-width="2" fill="none"/>
+    <line id="bacon1-e-BP-BW" x1="325.0" y1="200.0" x2="425.0" y2="132.0" stroke="black" stroke-width="2" fill="none"/>
+  </g>
+  <g id="bacon1-vertices">
+    <g id="bacon1-v-EW">
+      <g id="bacon1-v-EW" transform="translate(38.0,120.0) translate(-22.7,-5.1)">
+        <g id="bacon1-__g-0">
+          <text font-family="sans-serif" font-size="14" x="0.0" y="10.2">EW</text>
+        </g>
+      </g>
+      <circle cx="45.0" cy="120.0" r="3" stroke="black" stroke-width="2" fill="black"/>
+    </g>
+    <g id="bacon1-v-MS">
+      <g id="bacon1-v-MS" transform="translate(121.0,36.0) translate(-21.0,-10.6)">
+        <g id="bacon1-__g-1">
+          <text font-family="sans-serif" font-size="14" x="0.0" y="10.4">MS</text>
+        </g>
+      </g>
+      <circle cx="125.0" cy="40.0" r="3" stroke="black" stroke-width="2" fill="black"/>
+    </g>
+    <g id="bacon1-v-DH">
+      <g id="bacon1-v-DH" transform="translate(121.0,204.0) translate(-21.3,-0.0)">
+        <g id="bacon1-__g-2">
+          <text font-family="sans-serif" font-size="14" x="0.0" y="10.2">DH</text>
+        </g>
+      </g>
+      <circle cx="125.0" cy="200.0" r="3" stroke="black" stroke-width="2" fill="black"/>
+    </g>
+    <g id="bacon1-v-KB">
+      <g id="bacon1-v-KB" transform="translate(226.0,112.0) translate(-18.8,-5.1)">
+        <g id="bacon1-__g-3">
+          <text font-family="sans-serif" font-size="14" x="0.0" y="10.2">KB</text>
+        </g>
+      </g>
+      <circle cx="233.0" cy="112.0" r="3" stroke="black" stroke-width="2" fill="black"/>
+    </g>
+    <g id="bacon1-v-CB">
+      <g id="bacon1-v-CB" transform="translate(329.0,36.0) translate(0.0,-10.6)">
+        <g id="bacon1-__g-4">
+          <text font-family="sans-serif" font-size="14" x="0.0" y="10.4">CB</text>
+        </g>
+      </g>
+      <circle cx="325.0" cy="40.0" r="3" stroke="black" stroke-width="2" fill="black"/>
+    </g>
+    <g id="bacon1-v-BP">
+      <g id="bacon1-v-BP" transform="translate(329.0,204.0) translate(0.0,-0.0)">
+        <g id="bacon1-__g-5">
+          <text font-family="sans-serif" font-size="14" x="0.0" y="10.2">BP</text>
+        </g>
+      </g>
+      <circle cx="325.0" cy="200.0" r="3" stroke="black" stroke-width="2" fill="black"/>
+    </g>
+    <g id="bacon1-v-BW">
+      <g id="bacon1-v-BW" transform="translate(432.0,132.0) translate(0.0,-5.1)">
+        <g id="bacon1-__g-6">
+          <text font-family="sans-serif" font-size="14" x="0.0" y="10.2">BW</text>
+        </g>
+      </g>
+      <circle cx="425.0" cy="132.0" r="3" stroke="black" stroke-width="2" fill="black"/>
+    </g>
+  </g>
+</svg>
